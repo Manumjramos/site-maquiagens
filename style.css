@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black;
+    padding-right: auto;
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.search-bar {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.search-bar button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.conta img {
+    margin-left: 200px;
+    width: 40px;
+    height: 40px;
+}
+
+.carrinho {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carrinho img {
+    height: 40px;
+    width: auto;
+}
+
+.img-main {
+    background-image: url(assets/bocarosa.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 400px;
+}
+
+.produtos {
+    background-color: white;
+}
+
+.produtos ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.produtos li {
+    flex-basis: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos li a {
+    text-decoration: none;
+}
+
+.produtos li h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.produtos img {
+    height: 150px;
+}
+
+.produtos img:hover {
+    cursor: pointer;
+}
+
+.produtos h4 {
+    margin-top: 10px;
+    color: #fd0000;
+}
+
+.produtos h3 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#iluminador{
+    width: 30vw;
+    height:54vh;
+}
+
+#blush{
+    padding: 85px;
+}
